@@ -1,4 +1,4 @@
-# Portfolio Kristiána Kučera
+# Portfolio Kristián Kučera
 
 Tento web je osobní portfolio, které ukazuje moje dovednosti, projekty a zájem o vývoj digitálních světů a interaktivních zážitků.
 

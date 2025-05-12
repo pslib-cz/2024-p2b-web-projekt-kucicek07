@@ -1,0 +1,1 @@
+const e=document.querySelector(".hamburger"),t=document.querySelector(".nav-menu");e.addEventListener("click",()=>{e.classList.toggle("active"),t.classList.toggle("active")});document.querySelectorAll(".nav-link").forEach(c=>{c.addEventListener("click",()=>{e.classList.remove("active"),t.classList.remove("active")})});

@@ -99,6 +99,9 @@ button {
   width: 200px;
   border-radius: 10px;
 }
+.about-text p {
+  margin-bottom: 1rem;
+}
 
 .about-text {
   max-width: 500px;

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Kristian</title>
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/gallery.css" />
+  </head>
+  <body>
+    
+    <!-- Hamburger Menu -->
+    <nav class="navbar">
+      <a href="/src/pages/index.html" class="logo">Kucera</a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="portfolio">
+      <header class="section-head">
+        <h1>Some Of My Latest Works</h1>
+      </header>
+
+      <main class="mainContainer">
+        <!-- Buttons Section -->
+        <div class="button-group">
+          <button class="button active" data-filter="*">All</button>
+          <button class="button" data-filter=".design">Design</button>
+          <button class="button" data-filter=".development">Development</button>
+          <button class="button" data-filter=".logo">Logo</button>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+          <!-- Card 1 -->
+          <div class="item design">
+            <img src="/public/images/ChatGPT Image 24. 4. 2025 14_53_53-removebg-preview-fotor-2025042415713.webp" alt="Design 1">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="item design">
+            <img src="/public/images/ChatGPT Image 24. 4. 2025 15_01_23.webp" alt="Design 2">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="item development">
+            <img src="website1.jpg" alt="Website 1">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="item development">
+            <img src="website2.jpg" alt="Website 2">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="item development">
+            <img src="website3.jpg" alt="Website 3">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="item logo">
+            <img src="logo1.jpg" alt="Logo 1">
+            <div class="overlay">
+              <a href="#">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+  </body>
+</html>

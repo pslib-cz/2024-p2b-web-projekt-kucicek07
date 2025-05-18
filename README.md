@@ -5,6 +5,7 @@ Tento web je osobní portfolio, které ukazuje moje dovednosti, projekty a záje
 Co obsahuje web:
 - **O mně** – Stručné představení mojí osoby a mých dovedností.
 - **Projekty** – Ukázky projektů, na kterých jsem pracoval, včetně interaktivních webů a her.
+- **Galerie** – fotky, a ruzna grafika k prohlížení a stažení.
 - **Kontakt** – Jak se se mnou spojit pro potenciální spolupráce.
 
 Design

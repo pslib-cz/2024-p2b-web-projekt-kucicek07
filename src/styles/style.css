@@ -20,11 +20,13 @@ header {
   padding: 1.5rem 2rem;
   background-color: black;
 }
+
 .programmer {
   font-family: 'Poppins', serif;
   font-size: 1.5rem;
   color: #b74b4b;
 }
+
 .logo {
   font-size: 1.5rem;
   color: #b74b4b;
@@ -99,6 +101,7 @@ button {
   width: 200px;
   border-radius: 10px;
 }
+
 .about-text p {
   margin-bottom: 1rem;
 }
@@ -162,6 +165,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  z-index: 2;
 }
 
 .logo {
@@ -181,6 +185,8 @@ footer {
 .hamburger {
   display: none;
   cursor: pointer;
+  z-index: 2;
+  position: relative;
 }
 
 .about-me h2 {
@@ -198,7 +204,6 @@ footer {
   margin-top: 5px;
 }
 
-
 .bar {
   display: block;
   width: 25px;
@@ -207,59 +212,61 @@ footer {
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
+
 .button-container {
-    text-align: center;
-  }
-  
-  .glow-on-hover {
-    background: transparent;
-    border: 2px solid #B74B4B;
-    color: #B74B4B;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 12px 24px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    outline: none;
-    transition: all 0.4s ease;
-  }
-  
-  .glow-on-hover::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300%;
-    height: 300%;
-    background-color: #B74B4B;
-    transition: all 0.4s ease;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.4;
-  }
-  
-  .glow-on-hover:hover {
-    color: white;
-    background-color: #B74B4B;
-  }
-  
-  .glow-on-hover:hover::before {
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-  
-  .glow-on-hover:hover {
-    box-shadow: 0 0 10px #B74B4B, 0 0 20px #B74B4B, 0 0 30px #B74B4B;
-  }
-  
-  .glow-on-hover:active {
-    transform: scale(0.98);
-  }
-  
+  text-align: center;
+}
+
+.glow-on-hover {
+  display: inline-block;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #B74B4B;
+  color: #B74B4B;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.4s ease;
+}
+
+.glow-on-hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #B74B4B;
+  transition: all 0.4s ease;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+}
+
+.glow-on-hover:hover {
+  color: white;
+  background-color: #B74B4B;
+}
+
+.glow-on-hover:hover::before {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 10px #B74B4B, 0 0 20px #B74B4B, 0 0 30px #B74B4B;
+}
+
+.glow-on-hover:active {
+  transform: scale(0.98);
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -306,7 +313,6 @@ footer {
     display: block;
     margin: 0 auto;
   }
-  
 
   .navbar ul {
     flex-direction: column;
